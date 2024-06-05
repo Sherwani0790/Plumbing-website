@@ -526,7 +526,7 @@ textarea { color:#191d1e; }
 .logo_text {font-family: "Ubuntu", sans-serif; font-weight:700; }
 .h1, .h2 { letter-spacing: 1px; text-transform: uppercase;}
 h1, .h1 { font-size:64px; line-height:1; font-weight:600; }
-h2, .h2 { font-size:52px; padding-bottom:17px; line-height:1; font-weight:600;}
+h2, .h2 { font-size:40px; padding-bottom:17px; line-height:1; font-weight:600;}
 h3, .h3 { font-size:30px; line-height:1; font-weight:600;}
 h4, .h4 { font-size:24px; line-height:1;}
 h5, .h5 { font-size:18px; line-height:1;}
