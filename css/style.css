@@ -1,11 +1,5 @@
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
-@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900);
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
-@import url(http://fonts.googleapis.com/css?family=Inconsolata:100,100italic,300,300italic,400,400italic,700,700italic&subset=latin,latin-ext,cyrillic,cyrillic-ext);
-@import url(http://fonts.googleapis.com/css?family=Hind:100,100italic,300,300italic,400,400italic,500,600,700,700italic&subset=latin,latin-ext,cyrillic,cyrillic-ext);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500italic,500,700,700italic);
-@import url(http://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 html,
 body,
@@ -71,7 +65,7 @@ section,
 video,
 audio {
 	border: 0;
-	font-family: inherit;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -102,14 +96,14 @@ html {
 
 body {
 	color: #606060;
-	font: 300 16px/28px 'Hind', sans-serif;
+	font: 300 16px/28px "Ubuntu", sans-serif;
 	letter-spacing: 0.25px;
 }
 
 pre,
 code,
 tt {
-	font-family: 'Courier New', monospace;
+	font-family: "Ubuntu", sans-serif;
 }
 
 pre {
@@ -197,7 +191,7 @@ kbd,
 code {
 	display: block;
 	padding: 10px;
-	font-family: 'Courier New', monospace;
+	font-family: "Ubuntu", sans-serif;
 }
 
 kbd {
@@ -345,7 +339,7 @@ ul.sc_list_style_disk li {
 ul.sc_list_style_iconed li:before,
 ul.sc_list_style_arrows li:before {
 	display: block;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	width: 16px;
 	height: 20px;
 	margin: 4px 0 0 -20px;
@@ -1322,7 +1316,7 @@ textarea.textAreaSize {
 input[type="text"],
 input[type="password"],
 textarea {
-	font-family: inherit;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 14px;
 	outline: none;
 	color: #888888;
@@ -1414,7 +1408,7 @@ label.required:before {
 .contact_form_1:not(.sc_contact_form_contact_2) textarea {
 	border: none;
 	color: #b9bbbe;
-	font-family: inherit;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	outline: none;
@@ -1845,7 +1839,7 @@ span.mejs-offscreen {
 	display: inline-block;
 	padding: 0 23px;
 	height: 33px;
-	font-family: inherit;
+	font-family: "Ubuntu", sans-serif;
 	line-height: 33px;
 	font-weight: 600;
 	color: #fff;
@@ -2087,7 +2081,7 @@ header.menu_right .logo_slogan {
 	width: 28px;
 	height: 28px;
 	content: '\e83f';
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	font-size: 18px;
 	color: rgba(103, 103, 88, 0.5);
 	line-height: 29px;
@@ -2171,7 +2165,7 @@ header.menu_right .logo_slogan {
 }
 
 .topWrap .search .searchForm .searchSubmit .icoSearch:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e83f';
 	font-size: 16px;
 	color: rgba(103, 103, 88, 0.5);
@@ -2280,7 +2274,7 @@ header.menu_right .logo_slogan {
 	line-height: 14px;
 	display: block;
 	float: left;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e830';
 	font-style: normal;
 	margin: 0 5px 0 0;
@@ -2297,7 +2291,7 @@ header.menu_right .logo_slogan {
 }
 
 .topWrap .search .ajaxSearchResults>.post_item.no_thumb .post_title:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e826';
 	width: 20px;
 	height: 20px;
@@ -2426,7 +2420,7 @@ header.menu_right .logo_slogan {
 
 .topWrap .usermenu_area ul.usermenu_list>li a:before,
 .topWrap .usermenu_area ul.usermenu_list>li a:after {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 }
 
 .topWrap .usermenu_area ul.usermenu_list>li>a {
@@ -2708,7 +2702,7 @@ header.menu_right .logo_slogan {
 }
 
 .topWrap .usermenu_area ul.usermenu_list li.usermenu_cart .widget_area p.buttons a:after {
-	font-family: "WooCommerce" !important;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .topWrap .usermenu_area ul.usermenu_list li.usermenu_cart .widget_area p.total {
@@ -3088,7 +3082,7 @@ ul#mainmenu .menu-panel.thumb_title>li>ul>li>ul li a {
 
 .topMenuStyleLine ul#mainmenu .menu-panel.thumb_title>li>ul>li>ul li a:before {
 	content: '\e897';
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	font-size: 12px;
 	display: block;
 	position: absolute;
@@ -3238,9 +3232,9 @@ a:hover .menu_item_description {
 	display: none !important;
 }
 
-.menuTopWrap>ul#mainmenu {
+/* .menuTopWrap>ul#mainmenu {
 	display: none;
-}
+} */
 
 ul#mainmenu .menu-panel ul.columns>li ul {
 	max-width: 250px;
@@ -3335,7 +3329,7 @@ ul#mainmenu .menu-panel ul.columns>li ul {
 
 .topWrap .topMenuStyleLine>ul>li:not(.custom_view_item) ul li.menu-item-has-children>a:after {
 	font-size: 8px;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e826';
 	height: 30px;
 	width: 10px;
@@ -3699,7 +3693,7 @@ header.menu_center .topWrap .topMenuStyleLine ul#mainmenu {
 	height: 64px;
 	text-align: center;
 	line-height: 64px;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	font-size: 17px;
 }
 
@@ -3782,7 +3776,7 @@ header.menu_center .topWrap .topMenuStyleLine ul#mainmenu {
 
 .swpRightPos .panelmenu_area li.dropMenu:before {
 	content: '\e85d';
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	width: 40px;
 	display: block;
 	float: right;
@@ -3876,7 +3870,7 @@ header.menu_center .topWrap .topMenuStyleLine ul#mainmenu {
 }
 
 .swpRightPos .searchBlock .searchSubmit:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e83f';
 	font-size: 16px;
 	color: #888888;
@@ -3991,7 +3985,7 @@ header.menu_center .topWrap .topMenuStyleLine ul#mainmenu {
 
 .sidemenu_wrap .usermenu_area ul.usermenu_list>li a:before,
 .sidemenu_wrap .usermenu_area ul.usermenu_list>li a:after {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	text-decoration: none;
 }
 
@@ -4199,7 +4193,7 @@ header.menu_center .topWrap .topMenuStyleLine ul#mainmenu {
 }
 
 .sidemenu_wrap .usermenu_area ul.usermenu_list li.usermenu_cart .widget_area p.buttons a:after {
-	font-family: "WooCommerce" !important;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .sidemenu_wrap .usermenu_area ul.usermenu_list li.usermenu_cart .widget_area p.total {
@@ -4248,7 +4242,7 @@ header.menu_center .topWrap .topMenuStyleLine ul#mainmenu {
 
 .sidemenu_wrap .sidemenu_area li.dropMenu:before {
 	content: '\e85d';
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	width: 40px;
 	display: block;
 	float: right;
@@ -4353,7 +4347,7 @@ header.menu_center .topWrap .topMenuStyleLine ul#mainmenu {
 
 .sidemenu_wrap .sidemenu_close:after {
 	content: '\e941';
-	font-family: 'fontello';
+	font-family: "Ubuntu", sans-serif;
 	font-size: 25px;
 }
 
@@ -4421,7 +4415,7 @@ header.menu_center .topWrap .topMenuStyleLine ul#mainmenu {
 }
 
 .menuSearch .searchSubmit:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e83f';
 	font-size: 16px;
 	color: rgba(136, 136, 136, 0.75);
@@ -4624,7 +4618,7 @@ section.masonry[data-columns="4"] .thumb {
 }
 
 .itemPageFull .itemDescriptionWrap .toggleButton:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	display: block;
 	height: 48px;
 	width: 48px;
@@ -4731,7 +4725,7 @@ section.masonry[data-columns="4"] .thumb {
 	background: rgba(255, 255, 255, 0.8);
 	position: absolute;
 	top: 50px;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	color: #888888;
 	font-size: 25px;
 	text-align: center;
@@ -4943,7 +4937,7 @@ section.masonry[data-columns="4"] .thumb {
 .post ol li li:before,
 .post ul li li:before {
 	content: '\e902';
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	font-size: 0.5em;
 	font-style: normal;
 	font-weight: normal;
@@ -5359,7 +5353,7 @@ body:not(.single):not(.page) .with_sidebar .content .post .postStandard {
 }
 
 .ratingItem span:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	width: 16px;
 	height: 16px;
 	display: block;
@@ -5733,7 +5727,7 @@ blockquote {
 blockquote p:before {
 	content: '"';
 	font-size: 2em;
-	font-family: Oldenburg;
+	font-family: "Ubuntu", sans-serif;
 	position: absolute;
 	top: 5px;
 	left: 32px;
@@ -5742,7 +5736,7 @@ blockquote p:before {
 blockquote p:after {
 	content: '"';
 	font-size: 2em;
-	font-family: Oldenburg;
+	font-family: "Ubuntu", sans-serif;
 	margin-left: 5px;
 	position: absolute;
 }
@@ -5839,7 +5833,7 @@ p.sc_quote_position {
 
 .hoverIncrease .hoverIcon:before {
 	content: '\e808';
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	display: block;
 	text-indent: 2px;
 }
@@ -5889,7 +5883,7 @@ p.sc_quote_position {
 
 .sc_team_item .hoverIcon:before {
 	content: '\e944';
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	display: block;
 }
 
@@ -6512,7 +6506,7 @@ p.sc_quote_position {
 
 .sliderHomeBullets .order a:before {
 	content: '\e883';
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	display: inline-block;
 	padding: 0 1.2em 0 0;
 }
@@ -6595,7 +6589,7 @@ p.sc_quote_position {
 }
 
 .sliderHomeBullets.slider_alias_10 .textBlock {
-	font-family: 'Signika', sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	font-size: 1.2857em;
 	color: #ffffff;
 	z-index: 10;
@@ -8462,7 +8456,7 @@ video.videoBackground {
 	line-height: 20px;
 	font-size: 0;
 	position: absolute;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e87b';
 	left: 50%;
 	top: 50%;
@@ -9088,7 +9082,7 @@ article div:not(.isotopeFiltr)>ul>li.roundButton a:hover:after {
 .sc_scroll_controls .flex-direction-nav a:before,
 .sc_testimonials .flex-direction-nav a:before,
 .pagination .flex-direction-nav a:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 }
@@ -9340,38 +9334,38 @@ input[type="button"]:active,
 
 .roundButton.ico.more>a:before {
 	content: '\e850';
-	font-family: fontello;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .roundButton.ico.share>a:before {
 	content: '\e835';
-	font-family: fontello;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .roundButton.ico.view>a:before {
 	content: '\e83c';
-	font-family: fontello;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .roundButton.ico.comm>a:before {
 	content: '\e830';
-	font-family: fontello;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .roundButton.ico.left>a:before {
 	content: '\e85f';
-	font-family: fontello;
+	font-family: "Ubuntu", sans-serif;
 }
 
 .roundButton.ico.reply>a:before {
 	content: '\e831';
-	font-family: fontello;
+	font-family: "Ubuntu", sans-serif;
 	color: #1bbde8;
 }
 
 .roundButton.ico.right>a:after {
 	content: '\e860';
-	font-family: fontello;
+	font-family: "Ubuntu", sans-serif;
 }
 
 /*round Button lite*/
@@ -9871,7 +9865,7 @@ input[type="button"]:active,
 	width: 18px;
 	font-size: 8px;
 	line-height: 13px;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e826';
 }
 
@@ -10026,7 +10020,7 @@ span.rss-date {
 	line-height: 14px;
 	display: block;
 	float: left;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e830';
 	font-style: normal;
 	margin: 0 5px 0 0;
@@ -10053,7 +10047,7 @@ span.rss-date {
 }
 
 .widget_area article.no_thumb .post_title:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e826';
 	width: 20px;
 	height: 20px;
@@ -10356,7 +10350,7 @@ span.rss-date {
 
 .topTabsWrap .speedBar {
 	float: right;
-	font-family: "Open sans";
+	font-family: "Ubuntu", sans-serif;
 	font-size: 12px;
 	padding: 0;
 	padding-top: 50px;
@@ -10525,7 +10519,7 @@ span.rss-date {
 	width: 30px;
 	font-size: 18px;
 	line-height: inherit;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e826';
 }
 
@@ -10594,7 +10588,7 @@ span.rss-date {
 	width: 18px;
 	font-size: 13px;
 	line-height: inherit;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e826';
 }
 
@@ -10776,7 +10770,7 @@ span.rss-date {
 }
 
 .widgetTabs .widgetTop .post_item:not(.with_thumb) .post_title:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	content: '\e826';
 	width: 30px;
 	height: 72px;
@@ -10891,7 +10885,7 @@ span.rss-date {
 
 .twitBlock .sc_slider .swiper-slide .twitterIco {
 	display: block;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 }
 
 .twitBlock .sc_slider .swiper-slide .twitterIco:before {
@@ -10933,7 +10927,7 @@ span.rss-date {
 }
 
 .twitBlock .sc_slider .flex-direction-nav li a:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	color: #fff;
 	display: block;
 	width: 35px;
@@ -11582,7 +11576,7 @@ form .sc_infobox {
 }
 
 .inputSubmitAnimation .aIco:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	font-size: 20px;
 	text-align: center;
 	line-height: 43px;
@@ -12060,7 +12054,7 @@ pre.code {
 }
 
 .user-popUp ul.loginHeadTab li a:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	display: inline-block;
 	padding: 0 10px 0 0;
 	font-size: 14px;
@@ -12262,7 +12256,7 @@ pre.code {
 }
 
 .user-popUp .formItems .formList .loginSoc .iconLogin:before {
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	width: 32px;
 	height: 32px;
 	display: block;
@@ -12315,7 +12309,7 @@ pre.code {
 	z-index: 1;
 	line-height: 26px;
 	text-align: center;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	border-left: 1px solid #e3e3e3;
 	opacity: 1;
 }
@@ -12742,7 +12736,7 @@ pre.code {
 .booking_month_container_all .booking_month_nav_container #booking_month_nav_prev a:before {
 	content: "\e825";
 	display: block;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	height: 70px;
 	width: 40px;
 }
@@ -12756,7 +12750,7 @@ pre.code {
 .booking_month_container_all .booking_month_nav_container #booking_month_nav_next a:before {
 	content: "\e826";
 	display: block;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	height: 70px;
 	width: 40px;
 }
@@ -12944,7 +12938,7 @@ pre.code {
 #booking_slot_form .booking_float_right .close_booking:before {
 	content: "\e81d";
 	display: block;
-	font-family: "fontello";
+	font-family: "Ubuntu", sans-serif;
 	line-height: 30px;
 	text-align: center;
 	width: 30px;
@@ -13717,7 +13711,7 @@ a.eg-henryharrison-element-2 {
 }
 
 .myportfolio-container .added_to_cart.wc-forward {
-	font-family: "Open Sans";
+	font-family: "Ubuntu", sans-serif;
 	font-size: 13px;
 	color: #fff;
 	margin-top: 10px;
@@ -13737,7 +13731,7 @@ a.eg-henryharrison-element-2 {
 }
 
 .esg-center.eg-plumber-element-3.esg-flipup {
-	font-family: "Hind" !important;
+	font-family: "Ubuntu", sans-serif !important;
 	text-transform: capitalize !important;
 	border-radius: 0.4em !important;
 	line-height: 25px !important
@@ -13767,7 +13761,7 @@ a.eg-henryharrison-element-2 {
 	-webkit-border-radius: 5px;
 	font-size: 18px;
 	font-weight: 400;
-	font-family: "Hind", sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	display: inline-block;
 	background: #fff;
 	margin-bottom: 5px;
@@ -13946,7 +13940,7 @@ a.eg-henryharrison-element-2 {
 	background-color: rgba(255, 255, 255, 0.15) !important;
 	z-index: 2 !important;
 	display: block;
-	font-family: "Hind" !important;
+	font-family: "Ubuntu", sans-serif!important;
 	text-transform: capitalize !important;
 }
 
@@ -13982,7 +13976,7 @@ a.eg-henryharrison-element-2 {
 	background-color: rgba(255, 255, 255, 0.15);
 	position: relative;
 	z-index: 2 !important;
-	font-family: "Hind";
+	font-family: "Ubuntu", sans-serif;
 	text-transform: capitalize;
 }
 
@@ -14023,7 +14017,7 @@ a.eg-henryharrison-element-2 {
 	font-weight: 700;
 	border-radius: 5px 5px 5px 5px;
 	background-color: rgba(255, 255, 255, 0.15);
-	font-family: Hind, sans-serif;
+	font-family: "Ubuntu", sans-serif;
 	text-transform: capitalize;
 }
 
