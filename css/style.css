@@ -99,6 +99,9 @@ body {
 	font: 300 16px/28px "Ubuntu", sans-serif;
 	letter-spacing: 0.25px;
 }
+.checked {
+	color: orange;
+  }
 
 pre,
 code,
@@ -7778,7 +7781,7 @@ p.sc_quote_position {
 	vertical-align: middle;
 	font-size: 15px;
 	color: #ffffff;
-	line-height: 24px;
+	line-height: 20px;
 }
 
 .portfolio .isotopeElement .folioShowBlock .folioContentAfter .masonryInfo {
