@@ -1847,7 +1847,7 @@ span.mejs-offscreen {
 	line-height: 33px;
 	font-weight: 600;
 	color: #fff;
-	background-color: #00afda;
+	background-color: #ec942c;
 }
 
 /* ============================================ Header ============================================ */
@@ -6286,7 +6286,7 @@ p.sc_quote_position {
 	font-size: 48px;
 	line-height: 56px;
 	font-weight: 700;
-	color: rgba(209, 50, 75, 1.00);
+	color: #ec942c;
 }
 
 .mainslider_1 .rs-style-8 {
@@ -8756,7 +8756,7 @@ article div:not(.isotopeFiltr)>ul>li.roundButton,
 .sc_button.global.sc_button_style_global>a:hover,
 .sc_button.global.sc_button_style_global>span:hover,
 .sc_button.global.sc_button_style_global>button:hover {
-	color: #00afda;
+	color: #ec942c;
 }
 
 .sc_button.mini>a,
@@ -8996,7 +8996,7 @@ li.roundButton {
 
 .postSharing .share .icon-share.selected,
 .postSharing .share .icon-share.selected:before {
-	color: #00afda;
+	color: #ec942c;
 	background-color: #fff;
 	-webkit-border-radius: 0.4em;
 	-moz-border-radius: 0.4em;
