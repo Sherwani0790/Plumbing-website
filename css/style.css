@@ -81,7 +81,7 @@ body {
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	
+
 }
 
 html {
@@ -99,9 +99,10 @@ body {
 	font: 300 16px/28px "Ubuntu", sans-serif;
 	letter-spacing: 0.25px;
 }
+
 .checked {
-	color: orange;
-  }
+	color: 	#302633;
+}
 
 pre,
 code,
@@ -1851,7 +1852,7 @@ span.mejs-offscreen {
 
 /* ============================================ Header ============================================ */
 .topWrap {
-	background-color: #ffffff;
+	background-color: #302633;
 	background-position: center center;
 	top: -100px;
 	z-index: -1;
@@ -4975,7 +4976,7 @@ section.masonry[data-columns="4"] .thumb {
 }
 
 .post .post_content .post_text_area p a {
-	color: #1bbde8;
+	color: #ec942c;
 }
 
 .post .post_content .post_text_area p a:hover {
@@ -5552,7 +5553,7 @@ section.masonry[data-columns="4"] article {
 }
 
 .masonry article .thumb .link-wrapper a {
-	background-color: #1bbde8;
+	background-color: #ec942c;
 	border-radius: 3px;
 	color: #ffffff;
 	cursor: pointer;
@@ -5872,7 +5873,7 @@ p.sc_quote_position {
 	line-height: 50px;
 	text-align: center;
 	background-color: #fff;
-	color: #1bbde8;
+	color: #ec942c;
 	z-index: 10;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
@@ -5880,7 +5881,7 @@ p.sc_quote_position {
 }
 
 .sc_team_item:hover .hoverIcon:hover {
-	background-color: #1bbde8;
+	background-color: #ec942c;
 	color: #fff;
 }
 
@@ -6127,7 +6128,7 @@ p.sc_quote_position {
 .tp-bullets.tp-thumbs.hovered .bullet.last {}
 
 .fullScreenSlider .tp-caption.small-text-orange {
-	color: #1bbde8;
+	color: #ec942c;
 }
 
 .fullScreenSlider .tp-caption.large-white-text,
@@ -8721,8 +8722,8 @@ article div:not(.isotopeFiltr)>ul>li.roundButton,
 .woocommerce-page input.button.alt,
 .woocommerce-page #respond input#submit.alt,
 .woocommerce-page #content input.button.alt {
-	background-color: #1bbde8;
-	border-color: #1bbde8;
+	background-color: #ec942c;
+	border-color: #ec942c;
 }
 
 .sc_button.mono>a,
@@ -8941,15 +8942,15 @@ article div:not(.isotopeFiltr)>ul>li.roundButton.dark>a {
 .sc_button.sc_button_style_global.global.transparent>a,
 .sc_button.sc_button_style_global.global.transparent>span,
 .sc_button.sc_button_style_global.global.transparent>button {
-	color: #1bbde8;
-	border-color: #1bbde8;
+	color: #ec942c;
+	border-color: #ec942c;
 }
 
 .sc_button.sc_button_style_global.global.transparent>a:hover,
 .sc_button.sc_button_style_global.global.transparent>span:hover,
 .sc_button.sc_button_style_global.global.transparent>button:hover {
 	color: #fff;
-	background-color: #1bbde8;
+	background-color: #ec942c;
 }
 
 .sc_button.mini>a:hover,
@@ -9036,7 +9037,7 @@ article div:not(.isotopeFiltr)>ul>li.roundButton a:hover {
 }
 
 article div:not(.isotopeFiltr)>ul>li.roundButton a:hover:before {
-	color: #1bbde8;
+	color: #ec942c;
 }
 
 article div:not(.isotopeFiltr)>ul>li.roundButton a:hover:after {
@@ -9137,7 +9138,7 @@ article div:not(.isotopeFiltr)>ul>li.roundButton a:hover:after {
 	font-size: inherit;
 	line-height: 1;
 	font-weight: normal;
-	color: #1bbde8;
+	color: #ec942c;
 	background-color: transparent !important;
 	padding: 0;
 	margin: 0;
@@ -9146,13 +9147,13 @@ article div:not(.isotopeFiltr)>ul>li.roundButton a:hover:after {
 
 .sc_button.clear a:hover {
 	background-color: transparent !important;
-	color: #1bbde8 !important;
+	color: #ec942c !important;
 	text-decoration: none;
 }
 
 .sc_button.clear a:hover:after {
 	background-color: transparent !important;
-	color: #1bbde8 !important;
+	color: #ec942c !important;
 	width: 0%;
 }
 
@@ -9182,18 +9183,18 @@ header.fixedTopMenu .topWrap .menuTopWrap>ul>li.appointment-btn_menu.sc_button.m
 	line-height: 35px;
 	color: #fff;
 	height: inherit;
-	border: 2px solid #1bbde8;
+	border: 2px solid #ec942c;
 	height: 35px;
 }
 
 .appointment-btn_menu.sc_button.medium.current-menu-item>a {
-	color: #1bbde8;
+	color: #ec942c;
 	background-color: transparent;
 }
 
 #mainmenu .appointment-btn_menu.sc_button.medium>a:hover {
-	color: #1bbde8;
-	border-color: #1bbde8;
+	color: #ec942c;
+	border-color: #ec942c;
 }
 
 
@@ -9363,7 +9364,7 @@ input[type="button"]:active,
 .roundButton.ico.reply>a:before {
 	content: '\e831';
 	font-family: "Ubuntu", sans-serif;
-	color: #1bbde8;
+	color: #ec942c;
 }
 
 .roundButton.ico.right>a:after {
@@ -9508,7 +9509,7 @@ input[type="button"]:active,
 	border: 1px solid #ddd;
 	display: block;
 	padding: 0 7px;
-	border-color: #1bbde8;
+	border-color: #ec942c;
 	color: #151515;
 }
 
@@ -9882,7 +9883,7 @@ span.rss-date {
 
 .widget_rss a,
 .recentcomments a {
-	color: #1bbde8;
+	color: #ec942c;
 }
 
 .recentcomments a {
@@ -10133,7 +10134,7 @@ span.rss-date {
 
 .widget_area .tagcloud a:hover,
 .widget_area .tagcloud a:active {
-	color: #1bbde8;
+	color: #ec942c;
 	background-color: transparent;
 }
 
@@ -10144,7 +10145,7 @@ span.rss-date {
 
 .widget_area .search-form .search-field {
 	max-width: 200px;
-	border-color: #1bbde8;
+	border-color: #ec942c;
 }
 
 .widget_area .search-form .search-field,
@@ -10332,7 +10333,7 @@ span.rss-date {
 }
 
 .topTabsWrap {
-	background: #1bbde8;
+	background: #ec942c;
 }
 
 .widgetTabs .tabsButton li a {
@@ -11083,7 +11084,7 @@ span.rss-date {
 }
 
 .footerWrap.footerStyleDark {
-	background-color: #3c414c;
+	background-color: #302633;
 }
 
 
@@ -11566,12 +11567,12 @@ form .sc_infobox {
 	text-align: center;
 	color: #fff;
 	border-width: 2px;
-	border-color: #1bbde8;
+	border-color: #ec942c;
 	border-style: solid;
 }
 
 .inputSubmitAnimation a.sc_emailer_button.aIco:hover {
-	color: #1bbde8;
+	color: #ec942c;
 }
 
 .inputSubmitAnimation.sc_emailer_s1 {
@@ -11636,7 +11637,7 @@ form .sc_infobox {
 
 .page404 .inputSubmitAnimation .aIco:hover {
 	background-color: inherit;
-	color: #1bbde8;
+	color: #ec942c;
 }
 
 
@@ -12436,7 +12437,7 @@ pre.code {
 	background-image: url(../NewImages/plumbingImage.jpg);
 	/* background-position: 80% 50%; */
 	background-position: 0px -510px !important;
-    background-size: cover;
+	background-size: cover;
 }
 
 .bg_pattern_9 {
@@ -12808,7 +12809,7 @@ pre.code {
 }
 
 .days_container_all .booking_day_book {
-	color: #1bbde8 !important;
+	color: #ec942c !important;
 	display: inline-block;
 	float: left;
 	font-size: 11px;
@@ -12838,7 +12839,7 @@ pre.code {
 }
 
 .days_container_all .booking_day_container:hover .booking_day_slots {
-	color: #1bbde8 !important;
+	color: #ec942c !important;
 }
 
 .booking_name_days_container {
@@ -12983,7 +12984,7 @@ pre.code {
 
 #booking_submit_button:hover {
 	background-color: transparent !important;
-	color: #1bbde8 !important;
+	color: #ec942c !important;
 }
 
 #booking_submit_button,
@@ -12991,8 +12992,8 @@ pre.code {
 .booking_book_now_custom,
 .booking_ok_button,
 .themerex_message_dialog .themerex_message_button {
-	background-color: #1bbde8 !important;
-	border-color: #1bbde8 !important;
+	background-color: #ec942c !important;
+	border-color: #ec942c !important;
 	border-style: solid !important;
 	border-width: 2px !important;
 	color: #fff;
@@ -13126,7 +13127,7 @@ pre.code {
 }
 
 #booking_slot_form>div>a:hover {
-	color: #1bbde8 !important;
+	color: #ec942c !important;
 }
 
 #booking_slot_form>div>a {
@@ -13449,7 +13450,7 @@ h6 .wpb_text_column p {
 .sc_team.sc_team_style_2 .sc_team_item .sc_team_item_title a {
 	font-size: 24px;
 	font-weight: 600;
-	color: #1bbde8;
+	color: #ec942c;
 }
 
 .sc_team.sc_team_style_2 .sc_team_item .sc_team_item_title a:hover {
@@ -13943,7 +13944,7 @@ a.eg-henryharrison-element-2 {
 	background-color: rgba(255, 255, 255, 0.15) !important;
 	z-index: 2 !important;
 	display: block;
-	font-family: "Ubuntu", sans-serif!important;
+	font-family: "Ubuntu", sans-serif !important;
 	text-transform: capitalize !important;
 }
 
