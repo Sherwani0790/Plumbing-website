@@ -684,10 +684,10 @@ ul li a.social_icons.icon-flickr:hover, ul li a.social_icons.icon-flickr {backgr
 	     -o-transition: all 0.4s ease-in-out;
 	        transition: all 0.4s ease-in-out;
 }
-.sc_team .sc_team_item:hover .sc_team_item_info { padding-bottom:7px; }
+/* .sc_team .sc_team_item:hover .sc_team_item_info { padding-bottom:7px; }
 .sc_team .sc_team_item:hover .sc_team_item_avatar { margin-top:-34px; }
 .sc_team .sc_team_item .sc_team_item_position { font-weight:400; }
-.sc_team .sc_team_item .sc_team_item_avatar:after { background-color: #ec942c;}
+.sc_team .sc_team_item .sc_team_item_avatar:after { background-color: #ec942c;} */
 /* Slider */
 .dark .sc_slider_pagination_area .flex-control-nav.manual .slide_info .slide_title { font-family: "Ubuntu", sans-serif; font-weight:400; color: #ffffff; }
 .dark .sc_slider_pagination_area .flex-control-nav.manual li + li .slide_pager { border-color: rgba(255,255,255,0.3); }

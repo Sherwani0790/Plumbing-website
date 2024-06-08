@@ -101,7 +101,7 @@ body {
 }
 
 .checked {
-	color: 	#302633;
+	color: #302633;
 }
 
 pre,
@@ -11697,7 +11697,7 @@ form .sc_infobox {
 	z-index: 2;
 	position: absolute;
 	left: 0;
-	top: 0;
+	top: 30px;
 }
 
 .sc_team .sc_team_item .sc_team_item_avatar .sc_team_item_description {
@@ -11752,9 +11752,9 @@ form .sc_infobox {
 	text-transform: uppercase;
 }
 
-.sc_team .sc_team_item:hover .sc_team_item_avatar {
+/* .sc_team .sc_team_item:hover .sc_team_item_avatar {
 	margin: -32px 0 0 0;
-}
+} */
 
 .sc_team .sc_team_item:hover ul {
 	margin: 0;
