@@ -1960,7 +1960,7 @@ header.topSearchShow .menuTopWrap {
 }
 
 .logo a {
-	display: block;
+	display: flex;
 	color: #fff;
 	text-decoration: none;
 }
@@ -1970,7 +1970,7 @@ header.topSearchShow .menuTopWrap {
 	max-height: 74px;
 	border: none;
 	vertical-align: top;
-	margin-right: 10px;
+	/* margin-right: 10px; */
 	max-width: 81px;
 	border-radius: 10px;
 }
@@ -1982,8 +1982,8 @@ header.topSearchShow .menuTopWrap {
 }
 
 .logo .logo_slogan {
-	display: block;
-	vertical-align: top;
+	/* display: block;
+	vertical-align: top; */
 	line-height: 14px;
 	font-size: 10px;
 }
@@ -2055,11 +2055,11 @@ header.menu_center .topWrap .logo a {
 }
 
 header.menu_right .logo_slogan {
-	display: none;
+	/* display: none; */
 }
 
 .logo .logo_slogan {
-	color: rgba(0, 0, 0, 0.5);
+	color: rgb(255, 255, 255);
 }
 
 .topWrap .search {
