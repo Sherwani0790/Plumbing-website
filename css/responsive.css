@@ -935,8 +935,8 @@
 	h5, .h5 { font-size:13px; line-height:16px; padding:0 0 20px 0;}
 	h6, .h6 { font-size:12px; line-height:15px; padding:0 0 18px 0;}
 
-	header.noFixMenu .topWrap .logo { float: none !important; padding: 20px 0; text-align: center;}
-
+	header.noFixMenu .topWrap .logo { float: none !important; padding: 10px 0 0 0; text-align: center;}
+	
 	.responsiveMenu {float: none;text-align: center;}
     .fullScreenSlider .topWrap .responsiveMenu {
         margin-top: 0;
@@ -1221,7 +1221,7 @@
 	.responsive_menu .menuTopWrap ul li { list-style: none; margin-bottom: 0; }
 	
 	.responsive_menu .menuTopWrap li.menu-item-has-children:hover { cursor: pointer; }
-	.responsive_menu .menuTopWrap li.menu-item-has-children:before { content: '\e85d';  font-family: "fontello";  width: 40px; display: block; float: right; padding: 7px 0 0 0 ; text-align: center; color: #151515;}
+	/* .responsive_menu .menuTopWrap li.menu-item-has-children:before { content: '\e85d';  font-family: "fontello";  width: 40px; display: block; float: right; padding: 7px 0 0 0 ; text-align: center; color: #151515;} */
     .responsive_menu .menuTopWrap #mainmenu > li.menu-item-has-children:before{  padding: 18px 0 0 0 ; }
     .responsive_menu .menuTopWrap li.menu-item-has-children.dropOpen:before { content: '\e85e';}
 	.responsive_menu .menuTopWrap li.menu-item-has-children a { margin: 0 40px 0 0; }

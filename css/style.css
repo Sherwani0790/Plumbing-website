@@ -2764,13 +2764,13 @@ header.menu_right .logo_slogan {
 	line-height: 35px;
 	width: 100%;
 	text-transform: uppercase;
-	color: #373737;
+	color: #fff;
 	text-align: center;
 	clear: both;
 }
 
 .openResponsiveMenu:hover {
-	color: #373737;
+	color: #ec942c;
 }
 
 .responsive_menu .openResponsiveMenu {
@@ -14076,4 +14076,27 @@ div.facebook .pp_social {
 
 div.facebook .pp_description {
 	padding-bottom: 0;
+}
+.width-100{
+	width: 100%;
+}
+.width-33{
+	width: 33%;
+	float: left;
+}
+.width-33 img{
+	width: 370px;
+	height: 390px;
+}
+@media(max-width:767px){
+	footer img{
+		width: 40% !important;
+	}
+	.phnum{
+		margin-top: 100px !important;
+	}
+	.width-33{
+		width: 100%;
+		float: left;
+	}
 }
