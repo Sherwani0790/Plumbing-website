@@ -14099,4 +14099,20 @@ div.facebook .pp_description {
 		width: 100%;
 		float: left;
 	}
+	.portfolio .isotopeElement .folioShowBlock .folioContentAfter p {
+		margin: auto 40px;
+		padding: 0 0 25px 0;
+		vertical-align: middle;
+		font-size: 10px;
+		color: #ffffff;
+		line-height: 13px; 
+		display: block !important;
+	}
+	.portfolio .isotopeElement .folioShowBlock .folioContentAfter h4 {
+		color: #fff;
+		margin: 25px 40px 0 40px;
+		padding: 0 0 5px 0;
+		vertical-align: middle;
+		font: 400 28px / 35px inherit;
+	}
 }
